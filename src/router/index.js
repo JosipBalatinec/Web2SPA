@@ -20,6 +20,7 @@ const router = createRouter({
       path: '/book/:id',
       name: 'BookDetails',
       component: BookDetailsView,
+      props: true,
     },
     {
       path: '/:catchAll(.*)',
