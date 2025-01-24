@@ -28,7 +28,6 @@ export default {
     setTimeout(() => {
       const store = useBookStore();
       this.books = store.books;
-      console.log('Books have been loaded');
     }, 1000);
   }
 };

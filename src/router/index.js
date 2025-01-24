@@ -4,7 +4,7 @@ import AddBook from '../views/AddBook.vue'
 import BookDetailsView from '../views/BookDetailsView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL),
   routes: [
     {
       path: '/',
