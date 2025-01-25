@@ -3,8 +3,8 @@ import { defineStore } from 'pinia';
 export const useBookStore = defineStore('bookStore', {
   state: () => ({
     books: [
-      { id: 1, title: 'JavaScript', author: 'David Flanagan', description: 'Preporučena literatura.' },
-      { id: 2, title: 'The Tangled Web', author: 'Michal Zalewski', description: 'Preporučena literatura.' }
+      { id: 2, title: 'JavaScript', author: 'David Flanagan', description: 'Preporučena literatura.' },
+      { id: 3, title: 'The Tangled Web', author: 'Michal Zalewski', description: 'Preporučena literatura.' }
     ]
   }),
   actions: {
