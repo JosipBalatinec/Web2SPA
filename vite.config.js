@@ -16,3 +16,11 @@ export default defineConfig({
     },
   },
 })
+
+module.exports = {
+  publicPath: '/',
+  devServer: {
+    historyApiFallback: true,  // Ovo omogućava preusmjeravanje na /index.html kad korisnik unese bilo koju putanju
+  },
+};
+
